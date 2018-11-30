@@ -56,7 +56,7 @@ for i in encrypted_text:
                     result.append(Lalphabet[a])
 
 print ints
-# put then numbers back into the list:
+# put the numbers back into the list:
 for i in range(len(ints)):
     print i
     result.insert(ints[i][0], ints[i][1])
